@@ -13,8 +13,23 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
   </head>
+ 
+ <p> MY SITE </p>
 
   <body>
+    <nav>
+      <ul>
+       <li>
+          <a href="/user_sign_up">Sign up</a>
+        </li>
+        <li>
+          <a href="/users">Users</a>
+        </li>
+        <li>
+          <a href="/photos">Photos</a>
+        </li>
+      </ul>
+    </nav>
     <%= yield %>
   </body>
 </html>
